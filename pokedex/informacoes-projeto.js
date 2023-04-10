@@ -13,7 +13,4 @@ Obs.: Instação do http-server nesta pasta para simular um servidor real;
    http://127.0.0.1:8080
 */
 
-/*
-Pasta assets: Javascript, css, imagens. HTML não entra.
-*/
 
