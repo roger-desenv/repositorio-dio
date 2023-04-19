@@ -1,0 +1,77 @@
+* {
+			
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+  text-align: center;
+  
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+  }
+}
+
+.pokedex {
+  background-color: rgb(221, 230, 230);
+  
+  grid-template-columns: 1fr;
+  padding: 25px;
+  border-radius: 1rem;
+  background: #e2e5e9;
+  text-align: center;
+ 
+}
+
+.pokemon {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.pokemon img {
+  background-image: url("/assets//img/Pokeball.png");
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 350px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #616060;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+#load {
+  text-align: center;
+  margin-top: 30px;
+}
+
